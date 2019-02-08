@@ -1,14 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 using System.Collections;
-//using Valve.VR;
+using Valve.VR;
 
 public class VRInput : MonoBehaviour
 {
-    // Steam VR Actions
-  //  public SteamVR_Action_Boolean upButtonAction;
-    //public SteamVR_Action_Boolean downButtonAction;
-    //public SteamVR_Action_Boolean triggerButtonAction;
+    //Steam VR Actions
+    public SteamVR_Action_Boolean upButtonAction;
+    public SteamVR_Action_Boolean downButtonAction;
+    public SteamVR_Action_Boolean triggerButtonAction;
 
     // Events
     public UnityEvent onButtonPressUp;
