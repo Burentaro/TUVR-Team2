@@ -35,6 +35,7 @@ public class PoolBall : MonoBehaviour
                 for (int j = 0; j < 4 - i; j++)
                 { 
                     ballPools[m] = Instantiate<GameObject>(blueBallPrefab, dispensePosition.position + new Vector3((float)(-1.5 * 0.06), 0.0f, 0.7f) + new Vector3((float)((j + 0.5 * i) * 0.06), (float)(0.5 * 0.06), (float)(-i * 0.5 * 0.06) * (float)Math.Sqrt(3)), dispensePosition.rotation);
+                    ballPools[m].GetComponent<MeshRenderer>().material.color = new Color(UnityEngine.Random.Range(0.0f, 1.0f), UnityEngine.Random.Range(0.0f, 1.0f), UnityEngine.Random.Range(0.0f, 1.0f), UnityEngine.Random.Range(0.0f, 1.0f));
                     m = m + 1;
                 }
             }

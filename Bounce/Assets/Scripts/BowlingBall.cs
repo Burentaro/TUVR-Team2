@@ -8,6 +8,9 @@ public class BowlingBall : MonoBehaviour
 {
     public GameObject[] inventoryItems;      // List of items that are in the dispenser
     public Transform dispensePosition;  // Position where the items were come out
+    public GameObject pinPrefab;
+    public GameObject bballPrefab;
+
     private void BBall(GameObject BBall, Transform pos)
     {
 
