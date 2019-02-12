@@ -1446,11 +1446,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItems:
-  - {fileID: 340497500250280889, guid: 2bceedb481d887a448149f0175e070c3, type: 3}
-  - {fileID: 487540489716256517, guid: 02307dd554ebed14282069b92696026c, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   dispensePosition: {fileID: 1434982998}
+  pinPrefab: {fileID: 340497500250280889, guid: 2bceedb481d887a448149f0175e070c3,
+    type: 3}
+  bballPrefab: {fileID: 487540489716256517, guid: 02307dd554ebed14282069b92696026c,
+    type: 3}
 --- !u!114 &433525207
 MonoBehaviour:
   m_ObjectHideFlags: 0
