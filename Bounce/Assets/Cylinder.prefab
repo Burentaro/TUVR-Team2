@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1574917156626376105}
   - component: {fileID: 176631227052884735}
   - component: {fileID: 323067739887564334}
+  - component: {fileID: 1245692540865217774}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -208,3 +209,17 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 5075667363934993439}
+--- !u!64 &1245692540865217774
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340497500250280889}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}

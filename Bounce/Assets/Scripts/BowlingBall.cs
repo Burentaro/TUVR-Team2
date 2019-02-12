@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+//            ballPool[m] = Instantiate<GameObject>(Ball, pos.position + new Vector3((float)(-1.5 * 0.06), 0.0f, 0.7f) + new Vector3((float)((j + 0.5 * i) * 0.06), (float) (0.5 * 0.06), (float) (-i* 0.5 * 0.06) * (float) Math.Sqrt(3)), pos.rotation);
 
 public class BowlingBall : MonoBehaviour
 {
@@ -38,6 +39,12 @@ public class BowlingBall : MonoBehaviour
         if (itemNumber == 1 && k == 1)
         {
             Instantiate<GameObject>(inventoryItems[itemNumber]).transform.position = dispensePosition.position + new Vector3(-1.0f, (float)(0.5 * 0.5), -11.5f);
+            k = 0;
+        }
+
+        if (itemNumber == 3 && k == 1)
+        {
+            
             k = 0;
         }
 
